@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar"></nav>
+    </header>
+    <main>
+        <section id="content">
+            <h1>Welcome to the Interactive Website</h1>
+            <p>This is a simple interactive website with dynamic content.</p>
+            <button id="loadContent">Load Content</button>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modalText"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Interactive Website</p>
+    </footer>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/modal.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
