@@ -1,5 +1,4 @@
 
-# Jay Sangaraju
 
 **Job Title:** Data Scientist  
 **Location:** Sheffield, UK  
