@@ -1,7 +1,3 @@
----
-layout: default
-title: Jay Sangaraju
----
 
 # Jay Sangaraju
 
