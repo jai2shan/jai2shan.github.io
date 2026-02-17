@@ -21,9 +21,19 @@ Focused and dedicated Analytics professional with 12 years of experience and an 
 
 ## Skills
 
-- Python  
+- Python, Pytorch
 - R  
-- SQL  
+- SQL
+
+## Tools
+- Docker
+- KNIME, alteryx
+- PowerBI, Tableau, Excel
+
+
+
+## Platforms
+- Databricks, AWS Sagemaker
 
 ---
 
@@ -31,15 +41,17 @@ Focused and dedicated Analytics professional with 12 years of experience and an 
 
 **Data Scientist, Syngenta**  
 *2022 – Present*  
-Primarily worked on Finance related classification, regression, and forecasting problems.
+- Built a tool that has the ability to tune and forecast any data across the organisation. Currently this solution is used by 90 geographies across the globe to forecast Accounts receivables and Accounts payables using various forecasting techniques. Various others are in pipelines.
+- Setup the guidelines for the team to implement more data science solutions. Responsible for technically managing all the ML projects 
+- Implemented MLOps to optimise the time to build solutions for entire team
+- Mentored and guided junior data scientists by successfully guiding them in the projects
 
 **Data Scientist, Associate Principal Consultant, Arcadis**  
 *2019 – 2022*  
 Team lead responsible for understanding the business problems from clients and coming up with analytical solutions.
+- Designed a optimisation solution to manage the drainage assets across UK for network rail, to optimally select assets and reduce the overall risk score of asset failure
 - Designed ML models from scratch, starting from defining the problem statement phase.
 - Deployed various ML models that predict projects becoming Loss making, attrition, forecasting, and other automation projects using AI to reduce manual efforts.
-- Primarily worked on Finance.
-- Developed an Asset Management Optimisation tool.
 
 **Data Scientist, Advanced Financial Analyst, Ernst & Young**  
 *2017 – 2019*  
@@ -70,18 +82,13 @@ VIT University, Vellore
 
 ## Certifications
 
+
 **Post Graduate Program in Business Intelligence and Business Analytics**  
 Great Lakes Institute of Management  
 *2016*
 
----
-
-## Projects & Portfolio
-
-*(Add project/GitHub repo links, or describe notable projects here!)*
+**Extensive Vision AI program**
+The School of AI
+*2020*
 
 ---
-
-## Interests / Other Info
-
-*(Add interests, languages, etc.)*
