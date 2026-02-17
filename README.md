@@ -24,7 +24,7 @@ Focused and dedicated Analytics professional with 12 years of experience and an 
 
 ## Work Experience
 
-**Data Scientist, Syngenta**  
+**Senior Data Scientist, Syngenta**  
 *2022 – Present*  
 Primarily worked on Finance related classification, regression, and forecasting problems.
 
@@ -36,14 +36,14 @@ Team lead responsible for understanding the business problems from clients and c
 - Primarily worked on Finance.
 - Developed an Asset Management Optimisation tool.
 
-**Data Scientist, Advanced Financial Analyst, Ernst & Young**  
+**Advanced Financial Analyst, Ernst & Young**  
 *2017 – 2019*  
 Designed, built, and deployed Machine Learning models; led a team to generate monthly results and automate deployment processes.
 - Worked on end-to-end design and development of ML models.
 - Developed an optimum routing model which used the minimum number of cabs to drop all employees.
 - Developed and deployed ML-related models to forecast revenue.
 
-**Data Scientist, Associate, Cognizant**  
+**Associate, Cognizant**  
 *2015 – 2017*  
 Developed various ML models to predict attrition and to forecast headcount.
 - Implemented NLP techniques such as topic modeling and sentiment analysis on employee satisfaction surveys.
