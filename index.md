@@ -3,9 +3,7 @@ layout: default
 title: Jay Sangaraju
 ---
 
-# Jay Sangaraju
-
-**Data Scientist**  
+**Senior Data Scientist**  
 Sheffield, UK  
 [muralis2raj@gmail.com](mailto:muralis2raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jayasankar-raju) · [GitHub](https://github.com/jai2shan)
 
@@ -13,11 +11,7 @@ Focused analytics professional with 12 years of experience transforming data int
 
 ---
 
-## Quick Links
 
-[About](#about) | [Skills](#skills) | [Experience](#experience) | [Education](#education) | [Certifications](#certifications)
-
----
 
 ## About
 
