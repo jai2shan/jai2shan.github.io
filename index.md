@@ -19,36 +19,28 @@ Focused and dedicated analytics professional with 12 years of experience and a s
 
 ## Skills
 
-### Programming
-- Python, PyTorch
-- R
-- SQL
-
-### Tools
-- Docker
-- KNIME, Alteryx
-- Power BI, Tableau, Excel
-
-### Platforms
-- Databricks
-- AWS SageMaker
+| Category | Technologies |
+| --- | --- |
+| Programming | Python, PyTorch, R, SQL |
+| Tools | Docker, KNIME, Alteryx, Power BI, Tableau, Excel |
+| Platforms | Databricks, AWS SageMaker |
 
 ## Experience
 
-### Data Scientist, Syngenta
+### Senior Data Scientist, Syngenta
 *2022 – Present*
 - Built a forecasting tool used by 90 geographies globally to forecast accounts receivable and accounts payable.
 - Set technical implementation guidelines for the data science team and managed ML project delivery.
 - Implemented MLOps practices to optimize build and deployment timelines.
 - Mentored junior data scientists and supported successful project execution.
 
-### Data Scientist, Associate Principal Consultant, Arcadis
+### Associate Principal Consultant, Arcadis
 *2019 – 2022*
 - Led client-facing analytics delivery from business problem definition to solution implementation.
 - Designed an optimization solution for UK Network Rail drainage assets to reduce asset-failure risk.
 - Built and deployed ML models for loss prediction, attrition, forecasting, and automation.
 
-### Data Scientist, Advanced Financial Analyst, Ernst & Young
+### Advanced Financial Analyst, Ernst & Young
 *2017 – 2019*
 - Designed, built, and deployed machine learning models and automated monthly result generation.
 - Developed an optimal routing model minimizing cabs needed for employee drop-offs.
