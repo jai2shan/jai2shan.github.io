@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S Jayasankar Raju — Senior Data Scientist</title>
+<meta name="description" content="Resume of S Jayasankar Raju, Senior Data Scientist specializing in Finance analytics, forecasting, and machine learning.">
+<style>
+  :root {
+    --navy: #17324d;
+    --navy-dark: #0f2136;
+    --accent: #2f6f9e;
+    --accent-light: #eaf2f8;
+    --text: #2b2f33;
+    --text-muted: #5a6672;
+    --bg: #f4f6f8;
+    --card-bg: #ffffff;
+    --border: #e2e6ea;
+    --sidebar-text: #dbe6ef;
+    --sidebar-muted: #9fb4c7;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12181f;
+      --card-bg: #1a2129;
+      --border: #2a323b;
+      --text: #dfe4e9;
+      --text-muted: #a3adb6;
+      --navy: #0f2136;
+      --navy-dark: #0b1926;
+      --accent: #6ea8d8;
+      --accent-light: #1c2b3a;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px 20px 60px;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 0;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(15, 33, 54, 0.08);
+  }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar {
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: var(--sidebar-text);
+    padding: 36px 28px;
+  }
+
+  .sidebar h1 {
+    font-size: 1.5rem;
+    margin: 0 0 4px;
+    color: #fff;
+    letter-spacing: 0.3px;
+  }
+
+  .sidebar .role {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #9fd0ff;
+    margin-bottom: 22px;
+  }
+
+  .sidebar h2 {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: #7fa3c4;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 6px;
+    margin: 26px 0 12px;
+  }
+
+  .sidebar h2:first-of-type { margin-top: 0; }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+  }
+
+  .contact-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: var(--sidebar-text);
+    word-break: break-word;
+  }
+
+  .contact-list svg { flex: 0 0 auto; margin-top: 2px; opacity: 0.85; }
+  .contact-list a { color: var(--sidebar-text); }
+  .contact-list a:hover { color: #fff; }
+
+  .skill-group { margin-bottom: 16px; }
+  .skill-group h3 {
+    font-size: 0.78rem;
+    color: #cfe2f2;
+    margin: 0 0 8px;
+    font-weight: 600;
+  }
+
+  .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: var(--sidebar-text);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .sidebar .edu-item, .sidebar .ach-item {
+    font-size: 0.83rem;
+    margin-bottom: 12px;
+  }
+  .sidebar .edu-item .degree, .sidebar .ach-item .title {
+    font-weight: 600;
+    color: #fff;
+    display: block;
+  }
+  .sidebar .edu-item .school, .sidebar .ach-item .org {
+    color: var(--sidebar-muted);
+    display: block;
+    font-size: 0.8rem;
+  }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    background: var(--accent);
+    color: #fff !important;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+  .download-btn:hover { background: #3b84b8; transform: translateY(-1px); }
+
+  /* ---------- Main content ---------- */
+  .main {
+    padding: 40px 40px 44px;
+  }
+
+  .summary {
+    font-size: 0.98rem;
+    color: var(--text-muted);
+    margin: 0 0 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .main h2.section-title {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--accent);
+    margin: 0 0 20px;
+    font-weight: 700;
+  }
+
+  .timeline {
+    position: relative;
+    padding-left: 22px;
+    border-left: 2px solid var(--border);
+  }
+
+  .job {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .job:last-child { margin-bottom: 0; }
+
+  .job::before {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--card-bg);
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+
+  .job-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px 16px;
+    margin-bottom: 2px;
+  }
+
+  .job-title { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .job-company { color: var(--accent); font-weight: 600; }
+  .job-dates {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  .job ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+  }
+  .job li {
+    margin-bottom: 6px;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+  }
+
+  section.block { margin-bottom: 38px; }
+  section.block:last-child { margin-bottom: 0; }
+
+  /* Print */
+  @media print {
+    body { background: #fff; }
+    .page { padding: 0; max-width: none; }
+    .layout { box-shadow: none; border: none; border-radius: 0; grid-template-columns: 260px 1fr; }
+    .download-btn { display: none; }
+    a { text-decoration: none; color: inherit; }
+    .sidebar { background: var(--navy) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  /* Responsive */
+  @media (max-width: 760px) {
+    .layout { grid-template-columns: 1fr; }
+    .main { padding: 28px 22px 36px; }
+    .sidebar { padding: 28px 22px; }
+    .job-header { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>S Jayasankar Raju</h1>
+      <div class="role">Senior Data Scientist — Finance</div>
+
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>+44 7586 597751</span>
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6c0-1.1-.9-2-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6z"/><path d="m22 6-10 7L2 6"/></svg>
+          <a href="mailto:muralis2raj@gmail.com">muralis2raj@gmail.com</a>
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Sheffield, UK</span>
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          <a href="https://linkedin.com/in/jayasankar-raju" target="_blank" rel="noopener">linkedin.com/in/jayasankar-raju</a>
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.5c0 5.02 3.26 9.27 7.77 10.77.57.1.78-.25.78-.55v-2.15c-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.62 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.66 5.33-5.19 5.61.41.35.77 1.04.77 2.11v3.13c0 .3.21.66.79.55A11.51 11.51 0 0 0 23 11.5C23 5.24 18.27.5 12 .5z"/></svg>
+          <a href="https://github.com/jai2shan" target="_blank" rel="noopener">github.com/jai2shan</a>
+        </li>
+      </ul>
+
+      <a class="download-btn" href="S_Jayasankar_Raju_20260728.pdf" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download PDF
+      </a>
+
+      <h2>Core Skills</h2>
+      <div class="skill-group">
+        <h3>Languages &amp; Platforms</h3>
+        <div class="pill-row">
+          <span class="pill">Python</span><span class="pill">R</span><span class="pill">SQL</span>
+          <span class="pill">Docker</span><span class="pill">AWS SageMaker</span><span class="pill">Databricks</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Analytics Tools</h3>
+        <div class="pill-row">
+          <span class="pill">Excel</span><span class="pill">Power BI</span><span class="pill">Alteryx</span><span class="pill">KNIME</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Statistical &amp; ML Methods</h3>
+        <div class="pill-row">
+          <span class="pill">OLS &amp; GLMs</span><span class="pill">Factor Analysis</span><span class="pill">PCA</span>
+          <span class="pill">Conjoint Analysis</span><span class="pill">Discriminant Analysis</span>
+          <span class="pill">Classification</span><span class="pill">Hypothesis Testing</span>
+          <span class="pill">SARIMAX / ARIMA</span><span class="pill">Holt-Winters</span>
+          <span class="pill">Neural Networks</span>
+        </div>
+      </div>
+
+      <h2>Education</h2>
+      <div class="edu-item">
+        <span class="degree">B.Tech</span>
+        <span class="school">VIT University — CGPA 7.97</span>
+      </div>
+      <div class="edu-item">
+        <span class="degree">Certification in Business Analytics (PGP-BABI)</span>
+        <span class="school">Great Lakes Institute of Management</span>
+      </div>
+
+      <h2>Achievements</h2>
+      <div class="ach-item">
+        <span class="title">Star Contributor Award</span>
+        <span class="org">Arcadis</span>
+      </div>
+      <div class="ach-item">
+        <span class="title">Extra Miler Award</span>
+        <span class="org">Ernst &amp; Young</span>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <p class="summary">
+        Analytics and data science professional with 13+ years of experience designing, building, and deploying
+        machine learning and forecasting solutions across finance, operations, and HR functions. Skilled at
+        partnering with cross-functional business, technical, and finance teams to translate complex processes
+        into robust data engineering pipelines and predictive models that drive measurable, actionable outcomes.
+      </p>
+
+      <section class="block">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+
+          <div class="job">
+            <div class="job-header">
+              <div><span class="job-title">Senior Data Scientist</span> &middot; <span class="job-company">Syngenta</span></div>
+              <div class="job-dates">Jul 2022 – Present</div>
+            </div>
+            <ul>
+              <li>Led a high-profile finance data science initiative tracing customer invoice payments from bank accounts to internal company records, improving visibility of cash inflows, outflows, and related forecasts.</li>
+              <li>Partnered closely with Finance, Treasury, and IT stakeholders across teams to understand existing invoicing and payment processes end to end, translating business requirements into scalable, automated data pipelines and reconciliation logic.</li>
+              <li>Successfully designed, built, and deployed the solution into production, earning strong recognition from senior stakeholders for its accuracy, transparency, and business impact on cash flow visibility.</li>
+              <li>Architected and deployed an enterprise forecasting platform used by 90 geographies worldwide to generate Accounts Receivable and Accounts Payable forecasts using a range of advanced time-series techniques, with further use cases in the pipeline.</li>
+              <li>Defined data science standards and best practices for the team, taking technical ownership of the delivery of all ML projects.</li>
+              <li>Implemented MLOps practices to streamline and accelerate solution development across the team.</li>
+              <li>Mentored and guided junior data scientists, supporting their technical growth and successful delivery of projects.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div><span class="job-title">Associate Principal Consultant</span> &middot; <span class="job-company">Arcadis Design &amp; Consultancy</span></div>
+              <div class="job-dates">Apr 2019 – Jul 2022</div>
+            </div>
+            <ul>
+              <li>Scaled the initiative from a single-person proof of concept to a 10-person cross-functional development and data science team, growing the project into a multi-million-scale initiative for the client.</li>
+              <li>Designed an optimization solution to manage drainage assets across the UK rail network, enabling optimal asset selection and reducing overall risk of asset failure.</li>
+              <li>Designed and deployed machine learning models to predict project loss-making risk, attrition, and other automation use cases, reducing manual effort through AI-driven processes.</li>
+              <li>Delivered classification, regression, and forecasting solutions, with a strong focus on finance-related business problems.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div><span class="job-title">Lead Data Scientist</span> &middot; <span class="job-company">Talview</span></div>
+              <div class="job-dates">Mar 2019 – Apr 2019</div>
+            </div>
+            <ul>
+              <li>Developed a process that reduced candidate hiring time from 74 days to 36 days.</li>
+              <li>Designed a campus recruitment strategy that cut recruitment costs by 58% and reduced time-to-hire from four months to one month.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div><span class="job-title">Advanced Financial Analyst</span> &middot; <span class="job-company">Ernst &amp; Young</span></div>
+              <div class="job-dates">Oct 2017 – Feb 2019</div>
+            </div>
+            <ul>
+              <li>Led end-to-end design, development, and deployment of machine learning models, managing a team to generate monthly results and automate the deployment process.</li>
+              <li>Developed an optimum routing model that minimised the number of cabs required to transport all employees.</li>
+              <li>Developed and deployed ML models to forecast revenue and predict the probability of winning bids.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div><span class="job-title">Associate – HR WI COE Analytics</span> &middot; <span class="job-company">Cognizant</span></div>
+              <div class="job-dates">Feb 2013 – Oct 2017</div>
+            </div>
+            <ul>
+              <li>Developed machine learning models to predict employee attrition and forecast headcount.</li>
+              <li>Applied NLP techniques, including topic modelling and sentiment analysis, to employee satisfaction survey data.</li>
+              <li>Conducted inferential analysis on new joiner exits.</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+</body>
+</html>
